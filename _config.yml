@@ -1,0 +1,20 @@
+# Site settings
+title: Melissa De Leon Portfolio - version 3 launched on Github
+description: Launching Portfolio Version 3 on GitHub! I'm Melissa De Leon, and this portfolio is my digital playground where I share my latest projects and contributions to the tech world. 
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://melissadeleonx.com
+
+# User settings
+username: Melissa De Leon
+user_description: I'm Melissa De Leon, and this is my portfolio website where I share my latest projects and contributions. Built with Jekyll and deployed through Github, this site represents my journey as a Website and Software Developer, constantly pushing the boundaries of what's possible.
+user_title: Website and Software Developer
+email: primavita19@gmail.com
+twitter_username: melissadeleonx  
+github_username:  melissadeleonx
+gplus_username:  primavita19@gmail.com
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
