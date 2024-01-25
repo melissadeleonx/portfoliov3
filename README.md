@@ -36,7 +36,7 @@ user_title:
 email: 
 twitter_username: 
 github_username: 
-gplus_username:  
+gplus_username: 
 ```
 
 ## Color and Particle Customization
