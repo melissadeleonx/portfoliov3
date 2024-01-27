@@ -70,7 +70,7 @@
 .project-link {
   display: inline-block;
   margin: 10px 0px;
-  padding: 5px;
+  padding: 10px;
   color: $main;
   background-color: transparent;
   border: 1px solid $main;
@@ -83,19 +83,40 @@
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
   &:hover {
-    background-color: $purple;
+    // background-color: $purple;
+    background: #ebe419;
     border-color: $purple;
-    color: #fff;
+    color: $main;
+    font-weight: bold;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+                border-color 0.3s ease-in,
+                font-weight 0.3s ease-in; 
   }
   &:active {
-    background-color: $purple;
+    // background-color: $purple;
+    background: #ebe419;
     border-color: $purple;
-    color: #fff;
+    color: $main;
+    font-weight: bold;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+                border-color 0.3s ease-in,
+                font-weight 0.3s ease-in;
   }
+}
+
+.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+.horizontal-list li:before {
+  content: "\2022"; 
+  margin-right: 5px; 
 }
